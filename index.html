@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <title>Projeto buscar CEP</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="content-form">
+                <h1>Buscar seu CEP</h1>
+                <span id="erroCep" class="erro"></span>
+                <span id="esperaRequição"></span>
+                <label>Informe seu CEP</label>
+                <input type="text" id="inCep" placeholder="Informe o CEP:">
+                <label>Endereço</label>
+                <input type="text" id="inEndereco" disabled readonly>
+                <label>Bairro</label>
+                <input type="text" id="inBairro" disabled readonly>
+                <label>Cidade</label>
+                <input type="text" id="inCidade" disabled readonly>
+                <input type="button" id="btnEnviar" value="Limpar">
+            </div>
+        </section>
+    </main>
+</body>
+<script src="js/js.js"></script>
+</html>
